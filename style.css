@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #f2e7d7;
+  background: linear-gradient(to right, #ffffff, #fff0d9);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.07);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  line-height: 56px;
+  font-size: larger;
+}
+
+nav ul li a:hover {
+  text-decoration-line: inherit;
+  color: rgb(230, 221, 221);
+  background-color: rgba(105, 106, 105, 0.682);
+  border-radius: 5px;
+  background-position: 100px 20px;
+}
+
+.cards {
+  width: 200px;
+  background-color: rgb(179, 164, 164);
+  border-radius: 15px;
+  margin: 23px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  display: inline-block;
+  justify-content: space-around;
+  text-align: center;
+  background: linear-gradient(to right, #e2e2e2, #f8ecd7);
+}
+
+.cards:hover {
+  box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1);
+}
+
+.img img {
+  width: 80%;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.descration {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  padding: 12px 25px;
+  margin-top: 15px;
+  justify-self: center;
+  background-color: black;
+  border: none;
+  color: #f2e7d7;
+  border-radius: 1000px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-if {
+  width: 87%;
+  background-image: url('https://media.istockphoto.com/id/491926500/video/animation-video-of-falling-coffee-beans-in-slow-motion.jpg?s=640x640&k=20&c=b99mnGNeYUcOtYUSLCCvzrC0_A7-faYCTIQOmgVXnfc=');
+  background-size: cover;
+  background-position: center;
+  padding: 180px;
+  border-radius: 50px;
+  margin: 15px;
+  margin-left: 100px;
+}
+
+.box-if:hover {
+  box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1);
+}
+
+.font-color {
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.button {
+  padding: 16px 32px;
+  margin-top: 100px;
+  background-color: rgb(255, 254, 254);
+  border: none;
+  color: #000000;
+  border-radius: 1000px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+  box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.4);
+}
+
+.loc {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  margin: 22px;
+  margin-left: 45px;
+  border-top-right-radius: 50px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.loc:hover {
+  box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.4);
+}
+
+section {
+  justify-content: center;
+  margin-left: 530px;
+  margin-right: 550px;
+  border-radius: 20px;
+}
+
+section:hover {
+  box-shadow: 1px 5px 10px rgb(0, 0, 0, 0.4);
+}
+
+.loc1 {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  margin: 21px;
+  border-top-right-radius: 50px;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.img1 img {
+  width: 100%;
+}
+
+.footer {
+  background: linear-gradient(to right, #ffffff, #fff0d9);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  margin-right: 10px;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.07);
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.merch {
+  width: 300px;
+  border-radius: 15px;
+  margin: 23px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  display: inline-block;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .box-if {
+    padding: 80px;
+    margin-left: 0;
+  }
+
+  .loc,
+  .loc1 {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .footer-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .button {
+    padding: 12px 25px;
+  }
+
+  .h1 {
+    justify-content: center;
+  }
+
+  .merch {
+    width: 90%;
+  }
+}
+
+/* Media Queries for Very Small Devices (Phones) */
+@media (max-width: 480px) {
+  .cards {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .box-if {
+    padding: 60px;
+  }
+
+  .button {
+    padding: 10px 20px;
+  }
+
+  .footer {
+    padding: 15px 0;
+  }
+}
